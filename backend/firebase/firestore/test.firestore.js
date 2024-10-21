@@ -23,7 +23,7 @@ async function checkFirestoreConnection() {
                 ...doc.data()
             });
         });
-        console.log('Firebase connection success');
+        console.log('Firebase connection SUCCESS');
         return returnedData;
     } catch (error) {
         console.error(error);
